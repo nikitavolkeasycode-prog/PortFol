@@ -1,0 +1,86 @@
+body {
+    font-family: "Fira Code";
+    background-color: rgba(40, 44, 51, 1);
+    margin: 0px;
+}
+
+.container {
+    max-width: 74.96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    align-items: end;
+    min-height: 61px;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    height: 21px;
+}
+
+.union {
+    margin-right: 8px;
+}
+
+.nameAfterLogo {
+    display: flex;
+
+}
+
+.nikitaHeader {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.navHeaderTop{
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav-header {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    min-width: 443px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.lattice {
+    color: #C778DD
+}
+
+.language-selection {
+    display: flex;
+    align-items: start;
+    width: 34px;
+    height: 21px;
+    justify-content: space-between;
+}
+
+.enMode {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: SemiBold;
+    color: #ABB2BF;
+}
+
+.navHeaderTop {}
+
+.arrow {
+    margin-top: 4px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #ABB2BF;
+    border-right: 2px solid #ABB2BF;
+
+}
+
+.arrow-bottom {
+    transform: rotate(135deg);
+}
