@@ -4,6 +4,12 @@ body {
     margin: 0px;
 }
 
+.Header {
+    width: 79.06%;
+    margin-right: 2.27%;
+    margin-left: auto;
+}
+
 .container {
     max-width: 74.96%;
     margin-left: auto;
@@ -37,7 +43,7 @@ body {
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
     font-weight: 600;
-    cursor: none;
+    cursor: default;
 }
 
 .navHeaderTop {
@@ -90,9 +96,11 @@ body {
     font-style: SemiBold;
     cursor: url(pumpkin.png), pointer;
 }
-.enMode{
+
+.enMode {
     cursor: pointer;
 }
+
 .arrow {
     margin-top: 4px;
     width: 7px;
@@ -104,4 +112,49 @@ body {
 
 .arrow-bottom {
     transform: rotate(135deg);
+}
+
+.first {
+    width: 100%;
+    height: 423px;
+    margin-top: 123px;
+}
+
+.textAllInFirst {
+    padding-top: 74px;
+}
+
+.NikitaSpanInTextFirst {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: SemiBold;
+    cursor: default;
+}
+
+.FrontEndDeveloperInTextFirst {
+    color: #C778DD;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: SemiBold;
+    cursor: default;
+}
+
+.TextDiscriptionInTextFirst {
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    cursor: default;
+}
+
+.contactMeInFirst {
+    display: flex;
+    color: #fff;
+    border: 1px solid #C778DD;
+    width: 148px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
