@@ -37,11 +37,14 @@ body {
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
     font-weight: 600;
+    cursor: none;
 }
-.navHeaderTop{
+
+.navHeaderTop {
     font-size: 16px;
     font-weight: 400;
 }
+
 .nav-header {
     display: flex;
     position: relative;
@@ -70,8 +73,26 @@ body {
     color: #ABB2BF;
 }
 
-.navHeaderTop {}
+.nav-header {
+    list-style-type: none;
 
+}
+
+.navHeaderTop {
+    text-decoration: none;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: SemiBold;
+    cursor: url(pumpkin.png), pointer;
+}
+.enMode{
+    cursor: pointer;
+}
 .arrow {
     margin-top: 4px;
     width: 7px;
