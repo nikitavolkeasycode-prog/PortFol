@@ -4,9 +4,15 @@ body {
     margin: 0px;
 }
 
+body::after {
+    background-color: #C778DD;
+    height: 100px;
+    width: 100px;
+}
+
 .Header {
-    width: 79.06%;
-    margin-right: 2.27%;
+    justify-content: space-around;
+    margin-right: -8.27%;
     margin-left: auto;
 }
 
@@ -14,6 +20,8 @@ body {
     max-width: 74.96%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #2c3036;
+
 }
 
 .header-line {
@@ -27,6 +35,7 @@ body {
 .logo-header {
     display: flex;
     align-items: center;
+    margin-left: 5%;
     height: 21px;
 }
 
@@ -118,6 +127,7 @@ body {
     width: 100%;
     height: 423px;
     margin-top: 123px;
+    justify-content: space-around;
 }
 
 .textAllInFirst {
@@ -157,4 +167,72 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.first {
+    display: flex;
+}
+
+.discriptionImgInFirst {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: medium;
+    cursor: default;
+    width: 402px;
+    height: 37px;
+    margin-top: 1%;
+    border: #C778DD solid 1px;
+}
+
+.rectanglePink {
+    margin: 10px;
+}
+
+.portfolioSpan {
+    color: #ffffff;
+    margin: 10px;
+}
+
+.mainImgInFirst {
+    width: 442px;
+    height: 374px;
+    background-image: url("backImgRect.svg");
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+
+
+}
+
+.imageBoxInFirst {
+    position: relative;
+}
+
+.pointSAmsolut {
+    position: absolute;
+    padding-left: 70.04%;
+    padding-top: 50.71%;
+}
+
+.divInfo {
+    position: fixed;
+    display: flex;
+    left: 20px;
+    top: -2%;
+    width: 32px;
+    justify-content: center;
+    align-items: end;
+    height: 311px;
+    right: auto;
+
+
+}
+
+.lineStroke {
+    height: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
